@@ -1,0 +1,9 @@
+---
+applications:
+- name: feedback
+  memory: 356M
+  path: ./feedback/build/libs/feedback-0.2.0-SNAPSHOT.jar
+  random-route: true
+
+services:
+- feedback-redis
